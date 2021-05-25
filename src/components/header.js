@@ -6,10 +6,10 @@ export const Header = () => (
   <Banner>
     <HeaderText>night owl studio 🦉 </HeaderText>
     <div style={{ margin: "2rem" }}>
-      <Social>
+      <Social onClick={() => window.alert("sike! we dont have a twitter")}>
         <FaTwitter />
       </Social>
-      <Social>
+      <Social onClick={() => window.alert("sike! we dont have an instagram")}>
         <FaInstagram />
       </Social>
     </div>
@@ -22,7 +22,7 @@ const Banner = styled.div`
   justify-content: space-between;
   position: fixed;
   top: 0;
-  /* height: 2rem; */
+  z-index: 99;
   background-color: black;
 `;
 
