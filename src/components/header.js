@@ -1,9 +1,18 @@
 import React from "react";
 import styled from "styled-components";
+import { FaTwitter, FaInstagram } from "react-icons/fa";
 
 export const Header = () => (
   <Banner>
-    <HeaderText>nightowl studio 🦉 </HeaderText>
+    <HeaderText>night owl studio 🦉 </HeaderText>
+    <div style={{ margin: "2rem" }}>
+      <Social>
+        <FaTwitter />
+      </Social>
+      <Social>
+        <FaInstagram />
+      </Social>
+    </div>
   </Banner>
 );
 
@@ -11,13 +20,21 @@ const Banner = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  position: relative;
-  height: 2rem;
-  padding: 2rem;
+  position: fixed;
+  top: 0;
+  /* height: 2rem; */
+  background-color: black;
+`;
+
+const Social = styled.div`
+  margin: 10px;
+  display: inline;
+  color: white;
 `;
 
 const HeaderText = styled.div`
   font-family: "Varela Round", sans-serif;
   font-size: 1.5rem;
   color: white;
+  margin: 2rem;
 `;

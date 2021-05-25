@@ -6,7 +6,7 @@ export const LandingText = () => {
     <Wrapper>
       <Text>
         We're an early stage <WavyUnderline>creative studio</WavyUnderline>{" "}
-        building Augmented Reality experiences for education. We're driven by{" "}
+        building immersive experiences for education. We're driven by{" "}
         <em>social impact</em>, <strong>purpose</strong>, and, most importantly,
         fun. 👀
       </Text>
@@ -24,7 +24,7 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 10rem);
+  height: 100%;
 `;
 
 const Text = styled.div`
