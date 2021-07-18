@@ -7,7 +7,7 @@ export const LetsTalk = () => {
       <Text>
         Interested in adding some immersive pizazz to your organisation?{" "}
         <em>
-          <a href="mailto:luke@heroentertainment.com">Let's talk</a>
+          <a href="mailto:heroentertainment58@gmail.com">Let's talk</a>
         </em>
         .
       </Text>
