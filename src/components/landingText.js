@@ -28,7 +28,7 @@ const Wrapper = styled.div`
 `;
 
 const Text = styled.div`
-  font-size: 8vmin;
+  font-size: 7vmin;
   color: white;
   padding: 1em;
   font-family: "Noto Serif JP", serif;
