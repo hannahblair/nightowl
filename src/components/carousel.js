@@ -12,7 +12,7 @@ export const Carousel = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const handleResize = () => {
-    if (window.innerWidth < 720) {
+    if (window.innerWidth < 1024) {
       setIsMobile(true);
     } else {
       setIsMobile(false);
