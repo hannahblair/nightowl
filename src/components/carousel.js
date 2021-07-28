@@ -7,6 +7,8 @@ import seal from "../videos/seal.mp4";
 import shark from "../videos/shark.mp4";
 import wings2 from "../videos/wings2.mp4";
 import coral from "../videos/coral.mp4";
+import landmarks from "../videos/landmarks.mp4";
+import heart from "../videos/heart.mp4";
 
 export const Carousel = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -51,6 +53,16 @@ export const Carousel = () => {
       <div className="video-mask">
         <video autoplay="" muted loop>
           <source src={coral} type="video/mp4" />
+        </video>
+      </div>
+      <div className="video-mask">
+        <video autoplay="" muted loop>
+          <source src={landmarks} type="video/mp4" />
+        </video>
+      </div>
+      <div className="video-mask">
+        <video autoplay="" muted loop>
+          <source src={heart} type="video/mp4" />
         </video>
       </div>
     </Slider>

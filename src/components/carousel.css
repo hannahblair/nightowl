@@ -4,6 +4,13 @@
   width: 50vw;
 }
 
+.sample .slick-prev:before,
+.slick-next:before {
+  background-color: none;
+  background: transparent;
+  /* color: transparent !important/z s; */
+}
+
 video {
   display: initial !important;
   border-radius: 22px;
